@@ -48,6 +48,7 @@ export default function App() {
             window.removeEventListener('keydown', handleKeyDown);
             window.removeEventListener('keyup', handleKeyUp);
         };
+    // eslint-disable-next-line
     }, [isPushToTalkActive]);
 
     // Formats the current time for timestamping microphone input
